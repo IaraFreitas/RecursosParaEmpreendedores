@@ -33,6 +33,50 @@ div h2{
 }
 
 
-img {
-    margin-top: 30px;
-}
+
+#app{
+    padding: 15rem;
+    background-color: #5eac1f;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    }
+    
+    #app div button{
+    padding: 25px;
+    border-radius: 50px;
+    border-color:#9cffff ;
+    width: 20em;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 4px 4px 4px black;
+    
+    }
+    
+    #app button:hover{
+     transition: 1s;
+     color: white ;
+     background-color: #005900;
+     
+    }
+    
+    #app button a{
+    text-decoration: none;
+    color: #7becf0;
+    
+    }
+    
+    #app div p{
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 22px;
+    }
+    
+    #app div img{
+    width: 30rem;
+    height: 30rem;
+    margin-left: 70px;
+    margin-top: 70px;
+    box-shadow: 6px 6px 6px white;
+    
+    }
