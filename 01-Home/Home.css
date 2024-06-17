@@ -8,12 +8,19 @@
 
 header{
     padding: 3vh;
-    background-color: black;
+    background-color: #263dad;
     position: sticky;
     margin-top: 0;
     margin-bottom: 0;
-    box-shadow: 0px 8px 8px black;
+    box-shadow: 0px 8px 8px #2b3676;
     color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header img{
+    width: 50px;
 }
 
 header ul{
@@ -27,26 +34,40 @@ header a{
     margin-left: 50px;
 }
 
-.Bloco-01{
-    padding: 8vh;
+#Bloco-01{
+    background-image: url(ImgHome/img-bloco-01-back-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    background-color: black;
+    background-attachment: fixed;
+    margin-top: 0.5vh;
+    padding: 38vh;
     border-radius: black;
-    box-shadow: 0px 8px black;
+    box-shadow: 0px 8px  #2b3676;
+    color: white;
 }
 
-.Bloco-02{
-    padding: 8vh;
-    border-radius: black;
-    box-shadow: 0px 8px black;
+#Bloco-01 h1{
+    text-align: center;
 }
 
-.Bloco-03{
-    padding: 8vh;
+#Bloco-02{
+    padding: 16vh;
     border-radius: black;
-    box-shadow: 8px 8px black;
+    background-color: #34c7ce;
+    box-shadow: 0px 8px #2b3676;
+}
+
+#Bloco-03{
+    padding: 8vh;
+    background-color: #5774ee;
+    border-radius: black;
+    box-shadow: 8px 8px #2b3676;
 }
 
 footer{
     padding: 8vh;
-    background-color: black;
+    background-color: #263dad;
     color: white;
 }
