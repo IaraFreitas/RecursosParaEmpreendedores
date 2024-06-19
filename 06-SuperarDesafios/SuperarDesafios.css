@@ -1,18 +1,27 @@
 /* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color:white;
+    background-color:beige;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: rosybrown;
+    color: black;
     text-align: center;
     padding: 1em 0;
-}
+    justify-content: space-between;}
+    
 
 header {
     display: flex;
@@ -56,10 +65,12 @@ li h2 {
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background-color: #333;
+    padding: 50px 0;
+    background-color: rosybrown;
     color: #fff;
-    position: fixed;
+    position: center;
     bottom: 0;
     width: 100%;
+    justify-content: space-between;
+   
 }
