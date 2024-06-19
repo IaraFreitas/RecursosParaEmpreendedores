@@ -19,6 +19,8 @@ header i{
     margin-right: 50px;
     font-size: 40px;
 }
+
+
 div h2{
 
     text-align: center;
@@ -90,7 +92,7 @@ div h2{
    }
 
    #app p{
-    margin-left: 150px;
+    margin-left: 170px;
    }
 
 
@@ -156,3 +158,37 @@ div h2{
          background-color: black;
 
         }
+
+        
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color:green;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+    footer i{
+        display: flex;
+        margin-left: 30px;
+        font-size: 30px;
+        box-shadow: 4px 4px 4px black;
+        
+        
+    }
+
+     footer i:hover{ 
+        transition: 0.8s;
+        color: black;
+        background-color: #fff;
+
+    }
