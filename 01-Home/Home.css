@@ -4,16 +4,15 @@
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 header{
     padding: 3vh;
     background-color: #263dad;
-    position: sticky;
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 0px 8px 8px #2b3676;
-    color: white;
     position: sticky;
     top: 0;
     left: 0;
@@ -21,41 +20,63 @@ header{
 
 header img{
     width: 50px;
+    margin-left: -35rem;
+    margin-right: 35rem;
 }
 
 header ul{
+    align-items: center;
     display: flex;
-    
+    margin-left: 35rem;
 }
-
-
 
 header a{
     margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+header li button{
+    background-color: #263dad;
+    margin-left: 5rem;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+header li button a{
+    background-color: #263dad;
+    margin-right: 1rem;
+}
+
+#Bloco-00{
+    padding: 3vh;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 #Bloco-01{
     background-image: url(ImgHome/img-bloco-01-back-4.jpg);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 30%;
     background-position: center;
     background-color: black;
     background-attachment: fixed;
     margin-top: 0.5vh;
-    padding: 38vh;
+    padding: 33vh;
     border-radius: black;
     box-shadow: 0px 8px  #2b3676;
     color: white;
 }
 
-#Bloco-01 h1{
+#Bloco-00 h1{
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 #Bloco-02{
     padding: 16vh;
     border-radius: black;
-    background-color: #34c7ce;
+    background-color: #5774ee;
     box-shadow: 0px 8px #2b3676;
 }
 
@@ -65,6 +86,20 @@ header a{
     border-radius: black;
     box-shadow: 8px 8px #2b3676;
 }
+
+#Bloco-04{
+    background-color: black;
+    padding: 16vh;
+    color: white;
+    text-align: center;
+
+}
+
+#Bloco-04 p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 
 footer{
     padding: 8vh;
