@@ -102,7 +102,15 @@ header li button a{
 
 
 footer{
+    display: flex;
+    justify-content: space-evenly;
     padding: 8vh;
     background-color: #263dad;
     color: white;
+
+}
+
+.footer-map iframe{
+    width: 300px;
+    height: 250px;
 }
