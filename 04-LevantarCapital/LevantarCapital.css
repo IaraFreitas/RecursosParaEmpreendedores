@@ -70,7 +70,7 @@ div h2{
     }
     
     #app div p{
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 20px;
         margin-top: 22px;
     }
@@ -87,7 +87,7 @@ div h2{
    #app h2{
     font-size: 30px;
     padding: 80px;
-    margin-left: 170px;
+    margin-left: 180px;
     margin-top: 170px;
    }
 
@@ -129,7 +129,7 @@ div h2{
         }
         
         #app2 div p{
-            font-size: 30px;
+            font-size: 20px;
             margin-bottom: 20px;
             margin-top: 22px;
         }
@@ -192,3 +192,27 @@ footer p{
         background-color: #fff;
 
     }
+
+  #capital{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 50px;
+    justify-content: end;
+    margin-right: 80px;
+    background-color: white;
+    color: #005900;
+  }
+
+  #capital:hover{
+    transition: 0.8s;
+    color: black;
+    background-color: white;
+  }
+
+
+   #capital p{
+   font-size: 25px;
+   }
+
+  
