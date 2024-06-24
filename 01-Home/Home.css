@@ -18,15 +18,11 @@ header{
     left: 0;
 }
 
-/* header img{
-    width: 50px;
-    margin-left: -35rem;
-    margin-right: 35rem;
-} */
 
-.logo{
-    width: 5px;
-    height: 5px;
+
+.logo img{
+    width:  70px;
+    height: 70px;
 }
 
 .navbar{
@@ -137,11 +133,23 @@ header{
     margin-bottom: 1rem;
 }
 
+
 #Bloco-02{
-    padding: 16vh;
-    border-radius: black;
+    padding: 14vh;
+    color: black;
+    text-align: center;
     background-color: #5774ee;
     box-shadow: 0px 8px #2b3676;
+    font-size: 25px;
+}
+
+#Bloco-02 h2{
+    margin-bottom: 20px;
+}
+
+#Bloco-02 p{
+    margin-bottom: 20px;
+    text-align: center justify;
 }
 
 #Bloco-03{
@@ -149,6 +157,16 @@ header{
     background-color: #5774ee;
     border-radius: black;
     box-shadow: 8px 8px #2b3676;
+    text-align: center;
+    font-size: 20px;
+}
+
+#Bloco-03 h2{
+    margin-bottom: 2rem;
+}
+
+#Bloco-03 p{
+    margin-bottom: 1rem;
 }
 
 #Bloco-04{
@@ -156,8 +174,9 @@ header{
     padding: 16vh;
     color: white;
     text-align: center;
-
 }
+
+
 
 #Bloco-04 p{
     margin-top: 1.5rem;
