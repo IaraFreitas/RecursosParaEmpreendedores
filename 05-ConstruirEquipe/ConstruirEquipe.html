@@ -13,31 +13,51 @@
 
 <body>
 
-<!-- TESTE DE COMMIT -->
-    <header class="header">
-        <i class="fa-brands fa-microsoft"></i>
+<header>
+    <nav class="navbar">
 
-        </i>
+        <div class="logo"> <img src="ImgConstruirEquipe/00-logo-EmpreenderJr.png"
+                alt="logoHeader"> </div>
 
-<h1>A HISTÓRIA DE UM GRANDE HOMEM VISIONÁRIO</h1>
+        <ul class="nav-links">
 
-        <nav>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="#Bloco-03">Nossos Serviços</a></li>
+            <li><a href="#footer">Contato</a></li>
+            <li>
+                <a href="#">
+                    <img class="icon-login"
+                        src="ImgConstruirEquipe/00-icon-login.png"
+                        alt="00-icon-login">
+                    Login</a>
+            </li>
 
+        </ul>
 
-            <ul class="menu">
-                <li>
-                    <a href=""></a>
-                </li>
+        <div class="mobile-menu" id="mobileMenu">
 
+            <button id="closeButton" class="close">
+                <i class="fas fa-times"></i>
+            </button>
 
+            <ul class="nav-links-mobile">
 
+                <li><a href="#Bloco-01">Home</a></li>
+                <li><a href="#Bloco-03">Nossos Serviços</a></li>
+                <li><a href="#footer">Contato</a></li>
+                <li><a href="#">Login</a></li>
 
             </ul>
 
+            <button class="hamburger" id="hamburgerButton">
+                <i class="fas fa-bars"></i>
+            </button>
 
-        </nav>
+        </div>
 
-    </header>
+    </nav>
+
+</header>
     
      
     
@@ -82,26 +102,64 @@
 
     </section>
 
-    <footer class="rodape">
-        <nav>
-            <ul class="list-rodape">
+   
 
-            
-            </ul>
-
-        </nav>
-
-
-
-        <div>
-            <i class="fa-brands fa-microsoft"></i>
-            <i class="fa-brands fa-windows"></i>
-        </div>
-    </footer>
-
+    <script src="ConstruirEquipe.js"></script>
 
 
 </body>
+
+
+<footer id="footer">
+
+    <div class="footer-logo">
+
+        <img src="ImgConstruirEquipe/00-logo-EmpreenderJr.png" alt="img-logo">
+
+    </div>
+
+    <div class="div-meio">
+
+        <div class="contatos">
+
+            <p>Contatos:</p>
+
+
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp" style="color: #f7f9fd;"></i></a>
+
+            <a href="https://www.instagram.com/accounts/login/"> <i class="fa-brands fa-instagram" style="color: #f9fafb;"></i> </a> 
+            
+            <a href="https://www.youtube.com/account_advanced?hl=pt-br"> <i class="fa-brands fa-youtube" style="color: #f9fafb;"></i> </a> 
+
+            <a href="https://www.tiktok.com/login"> <i class="fa-brands fa-tiktok" style="color: #f8f9fc;"></i> </a> 
+
+        </div>
+
+        <div class="atendimento">
+
+            <p>Atendimento de 2ª à 6ª das 9h às 18h</p>
+
+            <p>Almoço: 12h/13h</p>
+
+        </div>
+
+    </div>
+
+    
+    
+    <div class="footer-map">
+
+        <p>Localização:</p>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9207352364274!2d-46.44970582542296!3d-23.535353160635854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1714782516079!5m2!1spt-BR!2sbr"
+            width="400" height="300" style="border:0;" allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+</footer>
 
 </html>
 
