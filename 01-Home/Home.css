@@ -1,3 +1,4 @@
+/*configuração global*/
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,8 @@
     list-style: none;
     flex-wrap: wrap;
 }
+
+/*configurações do header*/
 
 header{
     padding: 1vh;
@@ -66,8 +69,6 @@ header{
     color: #34c7ce;
 }
 
-
-
 .mobile-menu {
     display: none;
     position: fixed;
@@ -114,7 +115,7 @@ header{
 }
 
 
-
+/*confuguração dos blocos*/
 #Bloco-00{
     padding: 3vh;
     background-color: black;
