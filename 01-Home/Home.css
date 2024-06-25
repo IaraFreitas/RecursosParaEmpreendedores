@@ -274,6 +274,10 @@ header{
     margin-bottom: 15px;
 }
 
+#footer .footer-map p{
+    margin-bottom: 10px;
+}
+
 .footer-map iframe{
     width: 300px;
     height: 250px;

@@ -113,3 +113,88 @@ header{
     display: block;
     align-self: end;
 }
+
+.texte-body{
+height: 30vh;
+background-color: pink;
+padding: 30px;
+}
+
+
+
+
+
+
+
+
+/*configurações do footer*/
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8vh;
+    background-color: #020da3;
+    color: white;
+    align-items: center;
+}
+
+#footer .footer-logo img{
+    height: 25vh;
+    width: 20vw;
+    padding: 2px;
+    align-items: center;
+}
+
+#footer .contatos i {
+   font-size: 3rem;
+   margin-right: 20px;
+   padding: 20px;
+}
+
+#footer .contatos p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#footer .footer-map p{
+    margin-bottom: 10px;
+}
+
+.footer-map iframe{
+    width: 300px;
+    height: 250px;
+}
+
+#footer .div-meio{
+    display: block;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#footer .div-meio .atendimento{
+    padding: 2rem;
+    
+}
+
+#footer .div-meio .atendimento p{
+    margin-bottom: 8px;
+    
+}
+
+
+
+
+/*responsividade*/
+
+@media(max-width: 400px){
+
+    .nav-links{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+}
