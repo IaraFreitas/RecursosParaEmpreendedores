@@ -8,8 +8,9 @@
 }
 
 header{
-    padding: 2.5vh;
-    background-color: #1c2865;
+    padding: 1vh;
+    height: 20vh;
+    background-color: #020da3;
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 0px 8px 8px #2b3676;
@@ -19,8 +20,8 @@ header{
 }
 
 .logo img{
-    width:  70px;
-    height: 70px;
+    width:  12rem;
+    height: 8rem;
 }
 
 .navbar{
@@ -32,36 +33,49 @@ header{
     height: 50px;
 }
 
+.nav-links .icon-login{
+    width: 7rem;
+    heigth: 8rem;
+}
+
 .nav-links{
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
 }
 
 .nav-links li{
     padding: 0 30px;
+    align-items: center;
 }
 
 .nav-links a,
 .nav-links-mobile a{
     color: white;
     text-decoration: 0.3s;
+    font-size: 23px;
 }
+
+.nav-links img a:hover{
+    color: #34c7ce;
+}
+
 
 .nav-links a:hover{
     color: #34c7ce;
 }
 
-.nav-links button{
+/* .nav-links button{
     width: 8px;
     height: 30px;
     
-}
-.nav-links button a{
+} */
+/* .nav-links button a{
     background-color: #1c2865;
     
-}
+} */
 
 .mobile-menu {
     display: none;
@@ -70,7 +84,7 @@ header{
     right: 0;
     width: 60%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #020da3;
     flex-direction: column;
     align-items: center;
     font-size: 1.8rem;
@@ -87,7 +101,7 @@ header{
 }
 
 .nav-links-mobile li {
-    border-bottom: 1px solid #787272;
+    border-bottom: 1px solid #2b3676;
     padding-bottom: 1.2rem;
 }
 
