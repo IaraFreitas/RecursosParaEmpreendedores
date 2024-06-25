@@ -153,13 +153,8 @@ header{
     align-self: end;
 }
 
-
-
-
-
-h1 { 
+.texto {
     text-align: center;
-
 }
 .bill img {
     max-width: 100%;
