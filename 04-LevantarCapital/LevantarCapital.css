@@ -1,25 +1,128 @@
+/*configuração global*/
 *{
-margin: 0px;
-padding: 0px;
-list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
 }
+
+/*configurações do header*/
 
 header{
-    padding: 40px;
-    font-size: 40px;
-    background-color: #61d4b0;
-    text-align: center;
+    padding: 1vh;
+    height: 20vh;
+    background-color: #020da3;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0px 8px 8px #2b3676;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo img{
+    width:  15rem;
+    height: 8rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
     color: white;
-    box-shadow: 4px 4px 4px black;
-    text-shadow: 4px 4px 4px black;
+    align-items: center;
+    padding: 10px 30px;
+    height: 50px;
+}
+
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    padding: 0 30px;
+    align-items: center;
+}
+
+.nav-links a,
+.nav-links-mobile a{
+    color: white;
+    text-decoration: 0.3s;
+    font-size: 23px;
+}
+
+.nav-links .icon-login{
+    width: 3.2rem;
+    margin-right: -10PX;
+}
+
+.nav-links .icon-login a:hover{
+    color: #34c7ce;
+}
+
+.nav-links a:hover{
+    color: #34c7ce;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #020da3;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.2rem;
+    width: 0%;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links-mobile li {
+    border-bottom: 1px solid #2b3676;
+    padding-bottom: 1.2rem;
+}
+
+.hamburger,
+.close {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.close {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: block;
+    align-self: end;
+}
+
+.texte-body{
+height: 30vh;
+background-color: pink;
+padding: 30px;
 }
 
 
-header i{
-    margin-right: 50px;
-    font-size: 40px;
-}
 
+/*aqui são as configuraões feitas por você no body que eu não mexi em nada 😉*/
 
 div h2{
 
@@ -159,60 +262,102 @@ div h2{
 
         }
 
+        #capital{
+            text-align: center;
+            font-size: 30px;
+            padding: 10px;
+            margin-top: 50px;
+            justify-content: end;
+            margin-right: 80px;
+            background-color: white;
+            color: #005900;
+          }
+        
+          #capital:hover{
+            transition: 0.8s;
+            color: black;
+            background-color: white;
+          }
+        
+        
+           #capital p{
+           font-size: 25px;
+           }
+        
         
 
-footer {
+
+
+/*configurações do footer*/
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8vh;
+    background-color: #020da3;
+    color: white;
+    align-items: center;
+}
+
+#footer .footer-logo img{
+    height: 25vh;
+    width: 20vw;
+    padding: 2px;
+    align-items: center;
+}
+
+#footer .contatos i {
+   font-size: 3rem;
+   margin-right: 20px;
+   padding: 20px;
+}
+
+#footer .contatos p{
     text-align: center;
-    padding: 40px 0;
-    background-color:green;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#footer .footer-map p{
+    margin-bottom: 10px;
+}
+
+.footer-map iframe{
+    width: 300px;
+    height: 250px;
+}
+
+#footer .div-meio{
+    display: block;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#footer .div-meio .atendimento{
+    padding: 2rem;
+    
+}
+
+#footer .div-meio .atendimento p{
+    margin-bottom: 8px;
+    
 }
 
 
-footer p{
-    font-size: 20px;
-    margin-top: 30px;
+
+
+/*responsividade*/
+
+@media(max-width: 400px){
+
+    .nav-links{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
 }
-
-    footer i{
-        display: flex;
-        margin-left: 30px;
-        font-size: 30px;
-        box-shadow: 4px 4px 4px black;
-        
-        
-    }
-
-     footer i:hover{ 
-        transition: 0.8s;
-        color: black;
-        background-color: #fff;
-
-    }
-
-  #capital{
-    text-align: center;
-    font-size: 30px;
-    padding: 10px;
-    margin-top: 50px;
-    justify-content: end;
-    margin-right: 80px;
-    background-color: white;
-    color: #005900;
-  }
-
-  #capital:hover{
-    transition: 0.8s;
-    color: black;
-    background-color: white;
-  }
-
-
-   #capital p{
-   font-size: 25px;
-   }
 
   
