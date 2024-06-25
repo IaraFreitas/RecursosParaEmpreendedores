@@ -4,27 +4,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CrediAnálise | Site Oficial</title>
+  <title>Empreender Jr | Guia Passo a Passo</title>
   <link rel="stylesheet" href="GuiaPassoPasso.css">
-  <link rel="shortcut icon" href="imagens/LL.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="ImgGuiaPassoPasso/00-icon-favicon.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/503ff5402b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
   <header>
-    <nav>
-      <ul class="menu-header">
-        <li>
-          <a href="home.html">HOME</a>
-        </li>
-        <li>
-          <a href="simulacao.html">SIMULAÇÃO</a>
-        </li>
-        <li>
-          <a href="sobre-nos.html">SOBRE NÓS</a>
-        </li>
-      </ul>
+    <nav class="navbar">
+
+        <div class="logo"> <img src="ImgGuiaPassoPasso/00-logo-EmpreenderJr.png"
+                alt="logoHeader"> </div>
+
+        <ul class="nav-links">
+
+            <li><a href="#Bloco-01">Home</a></li>
+            <li><a href="#Bloco-03">Nossos Serviços</a></li>
+            <li><a href="#footer">Contato</a></li>
+            <li>
+                <a href="#">
+                    <img class="icon-login" src="ImgGuiaPassoPasso/00-icon-login.png" alt="00-icon-login">
+                    Login</a>
+            </li>
+
+        </ul>
+
+        <div class="mobile-menu" id="mobileMenu">
+
+            <button id="closeButton" class="close">
+                <i class="fa-solid fa-x" style="color: #ffffff;"></i></i>
+            </button>
+
+            <ul class="nav-links-mobile">
+
+                <li><a href="#Bloco-01">Home</a></li>
+                <li><a href="#Bloco-03">Nossos Serviços</a></li>
+                <li><a href="#footer">Contato</a></li>
+                <li><a href="#">Login</a></li>
+
+            </ul>
+
+            <button class="hamburger" id="hamburgerButton">
+                <i class="fa-solid fa-x" style="color: #ffffff;"></i></i>
+            </button>
+
+        </div>
+
     </nav>
-  </header>
+
+</header>
+
 
   <main>
     <section id="section1">
@@ -107,11 +138,61 @@
       </div>
     </section>
   </main>
-  <footer>
-    <div id="footer-div">
-      <a href="./sobre-nos.html">SOBRE NÓS</a>
-    </div>
-  </footer>
+
+  <script src="GuiaPassoPasso.js"></script>
+
 </body>
+
+<footer id="footer">
+
+  <div class="footer-logo">
+
+      <img src="ImgGuiaPassoPasso/00-logo-EmpreenderJr.png" alt="img-logo">
+
+  </div>
+
+  <div class="div-meio">
+
+      <div class="contatos">
+
+          <p>Contatos:</p>
+
+
+          <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp" style="color: #f7f9fd;"></i></a>
+
+          <a href="https://www.instagram.com/accounts/login/"> <i class="fa-brands fa-instagram" style="color: #f9fafb;"></i> </a> 
+          
+          <a href="https://www.youtube.com/account_advanced?hl=pt-br"> <i class="fa-brands fa-youtube" style="color: #f9fafb;"></i> </a> 
+
+          <a href="https://www.tiktok.com/login"> <i class="fa-brands fa-tiktok" style="color: #f8f9fc;"></i> </a> 
+
+      </div>
+
+      <div class="atendimento">
+
+          <p>Atendimento de 2ª à 6ª das 9h às 18h</p>
+
+          <p>Almoço: 12h/13h</p>
+
+      </div>
+
+  </div>
+
+  
+  
+  <div class="footer-map">
+
+          <p>Localização:</p>
+
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9207352364274!2d-46.44970582542296!3d-23.535353160635854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1714782516079!5m2!1spt-BR!2sbr"
+          width="400" height="300" style="border:0;" allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </div>
+
+</footer>
+
 
 </html>
