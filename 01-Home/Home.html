@@ -6,10 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Empreender Jr | Home</title>
         <link rel="stylesheet" href="Home.css">
-        <link rel="shortcut icon" href="ImgHome/00-icon-favicon.png"
-            type="image/x-icon">
-        <script src="https://kit.fontawesome.com/503ff5402b.js"
-            crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="ImgHome/00-icon-favicon.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/503ff5402b.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
 
     </head>
 
@@ -23,7 +22,7 @@
 
                 <ul class="nav-links">
 
-                    <li><a href="#Bloco-01">Home</a></li>
+                    <li><a href="Home.html">Home</a></li>
                     <li><a href="#Bloco-03">Nossos Serviços</a></li>
                     <li><a href="#footer">Contato</a></li>
                     <li>
@@ -80,34 +79,25 @@
 
             <p>Sermos uma empresa que busca orientar empreendedores iniciantes
                 de
-                modo que estes construam uma base forte visando a existência de
+                modo que estes construam uma base forte, visando a existência de
                 seu empreendimento no longo prazo.</p>
 
         </div>
 
+
+
         <div id="Bloco-05">
-            <div class="divOne efeito-img-topo"><p>Começe com uma folha
-                    sulfite.</p></div>
-            <div class="divTwo efeito-img-topo"><p>Continue num caderno mês a
-                    mês.</p></div>
-            <div class="divThree efeito-img-topo"><p>Se aventure numa planilha
-                    simples em Excel.</p></div>
-        </div>
 
-        <div id="Bloco-04">
+            <h2>Comece de onde você está e com o que você tem.</h2>
 
-            <h2>Iniciando no empreendedorismo? Esteja atento aos pontos
-                abaixo.</h2>
+            <div class="base">
 
-            <p>Dica: Delegue o que puder delegar e foque no que faz de
-                melhor.</p>
+                <div class="divOne efeito-img-topo"><p>Rascunhe em uma folha sulfite.</p></div>
+                <div class="divOne efeito-img-topo"><p>Busque referências de quem já fez o mesmo.</p></div>
+                <div class="divOne efeito-img-topo"><p>Assista vídeos gratuítos na internet.</p></div>
+    
 
-            <!-- inserir nuvem com palavras que o pequeno empreendedor não pode negligenciar -->
-            <img src="ImgHome/img-nuvem-palavras.png" alt="img-bloco-04">
-
-            <p>Para adentrar esse universo, é recomendado que sejam
-                identificadas as paixões e as habilidades pessoais, facilitando
-                a escolha da área de empreendimento mais adequada.</p>
+            </div>
 
         </div>
 
@@ -116,14 +106,46 @@
             <h2>Nossos serviços:</h2>
 
             <p><a href="#">Como Elaborar Plano de Negócio</a></p>
-            <p><a href="#section1">Guias Passo a Passo</a></p>
+            <p><a href="#">Guias Passo a Passo</a></p>
             <p><a href="#">Como Levantar Capital</a></p>
-            <p><a href="#">Como Contruir uma Equipe Forte</a></p>
+            <p><a href="#">Como Construir uma Equipe Forte</a></p>
             <p><a href="#">Como Superar os Desafios</a></p>
 
         </div>
 
+
+        <div id="Bloco-04">
+
+            <h2>Esteja atento às palavras chaves abaixo.</h2>
+
+            <!-- nuvem com palavras que o pequeno empreendedor não pode negligênciar -->
+            <img src="ImgHome/img-nuvem-palavras.png" alt="img-bloco-04">
+
+            <p>Dica: Para adentrar esse universo, é recomendado que sejam
+                identificadas as paixões e as habilidades pessoais, assim estará facilitando
+                a escolha da área de empreendimento mais adequada.</p>
+
+        </div>
+
+
+
         <script src="Home.js"></script>
+
+
+        <!-- Site disponibilizado pelo Governo para termos Libras na pag Web > https://vlibras.gov.br/doc/widget/installation/webpageintegration.html -->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+        <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        
 
     </body>
 

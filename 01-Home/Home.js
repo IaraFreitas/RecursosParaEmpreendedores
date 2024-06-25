@@ -13,3 +13,12 @@ hamburgerButton.addEventListener('click', function(){
 closeButton.addEventListener('click', function(){
     mobileMenu.classList.remove('flex');
 });
+
+
+window.revelar = ScrollReveal({reset:true});
+
+revelar.reveal('.efeito-img-topo', {
+  duration: 2000,
+  distance: '90px'
+});
+
