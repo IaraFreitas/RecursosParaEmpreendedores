@@ -20,7 +20,7 @@ header{
 }
 
 .logo img{
-    width:  12rem;
+    width:  15rem;
     height: 8rem;
 }
 
@@ -33,11 +33,6 @@ header{
     height: 50px;
 }
 
-.nav-links .icon-login{
-    width: 7rem;
-    heigth: 8rem;
-}
-
 .nav-links{
     list-style: none;
     margin: 0;
@@ -46,7 +41,7 @@ header{
     align-items: center;
 }
 
-.nav-links li{
+.nav-links li {
     padding: 0 30px;
     align-items: center;
 }
@@ -58,24 +53,20 @@ header{
     font-size: 23px;
 }
 
-.nav-links img a:hover{
-    color: #34c7ce;
+.nav-links .icon-login{
+    width: 3.2rem;
+    margin-right: -10PX;
 }
 
+.nav-links .icon-login a:hover{
+    color: #34c7ce;
+}
 
 .nav-links a:hover{
     color: #34c7ce;
 }
 
-/* .nav-links button{
-    width: 8px;
-    height: 30px;
-    
-} */
-/* .nav-links button a{
-    background-color: #1c2865;
-    
-} */
+
 
 .mobile-menu {
     display: none;
@@ -115,7 +106,6 @@ header{
     display: none;
 }
 
-
 .close {
     margin-top: 20px;
     margin-right: 20px;
@@ -123,10 +113,6 @@ header{
     align-self: end;
 }
 
-
-.flex {
-    display: flex;
-}
 
 
 #Bloco-00{
@@ -259,12 +245,32 @@ header{
       } 
 
 
-footer{
+#footer{
     display: flex;
     justify-content: space-evenly;
     padding: 8vh;
-    background-color: #1c2865;
+    background-color: #020da3;
     color: white;
+    align-items: center;
+}
+
+#footer .footer-logo img{
+    height: 25vh;
+    width: 20vw;
+    padding: 2px;
+    align-items: center;
+}
+
+#footer .contatos i {
+   font-size: 3rem;
+   margin-right: 20px;
+   padding: 20px;
+}
+
+#footer .contatos p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .footer-map iframe{
@@ -272,14 +278,25 @@ footer{
     height: 250px;
 }
 
-.footer-map p{
-    margin-bottom: 10px;
+#footer .div-meio{
+    display: block;
+    align-items: center;
+    text-align: center;
+    
 }
 
-#footer .redeSocial img {
-    width: 30px;
-    height: 30px;
+#footer .div-meio .atendimento{
+    padding: 2rem;
+    
 }
+
+#footer .div-meio .atendimento p{
+    margin-bottom: 8px;
+    
+}
+
+
+
 
 /*responsividade*/
 
