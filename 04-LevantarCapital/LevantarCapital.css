@@ -129,22 +129,28 @@ div h2{
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
-    background-color: #8ee696;
+    background-color: #001abb;
     padding: 40px;
-    color: white;
+    color:white;
     box-shadow: 4px 4px 4px black;
     text-shadow: 4px 4px 4px  black;
 
+}
+
+div h2:hover{
+    transition: 0.8s;
+    color:#7becf0;
+    
 }
 
 
 
 #app{
     padding: 15rem;
-    background-color: #5eac1f;
+    background-color:#187ade ;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: blue;
     }
     
     #app div button{
@@ -155,20 +161,21 @@ div h2{
     cursor: pointer;
     font-size: 15px;
     box-shadow: 4px 4px 4px black;
-    margin-left: 150px;
+    margin-left: 170px;
+    margin-top: 20px;
     
     }
     
     #app button:hover{
      transition: 1s;
      color: white ;
-     background-color: #005900;
+     background-color: #001abb;
      
     }
     
     #app button a{
     text-decoration: none;
-    color: #7becf0;
+    color: ;
     
     }
     
@@ -176,12 +183,19 @@ div h2{
         font-size: 20px;
         margin-bottom: 20px;
         margin-top: 22px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    #app div p:hover{
+        transition: 0.8s;
+        color: white;
     }
     
     #app div img{
     width: 30rem;
     height: 30rem;
-    margin-left: 70px;
+    margin-left:180px;
     margin-top: 70px;
     box-shadow: 6px 6px 6px white;
     
@@ -192,6 +206,8 @@ div h2{
     padding: 80px;
     margin-left: 180px;
     margin-top: 170px;
+    margin-left: 30px;
+    box-shadow: 4px 4px 4px black;
    }
 
    #app p{
@@ -201,10 +217,11 @@ div h2{
 
     #app2{
         padding: 15rem;
-        background-color: #5eac1f;
+        background-color:#187ade;
         display: flex;
         justify-content: space-between;
         color: white;
+        
         }
         
         #app2 div button{
@@ -214,14 +231,14 @@ div h2{
         width: 20em;
         cursor: pointer;
         font-size: 15px;
-        box-shadow: 4px 4px 4px black;
+        box-shadow: 6px 6px 6px black;
         
         }
         
         #app2 button:hover{
          transition: 1s;
          color: white ;
-         background-color: #005900;
+         background-color:blue;
          
         }
         
@@ -235,12 +252,18 @@ div h2{
             font-size: 20px;
             margin-bottom: 20px;
             margin-top: 22px;
+            color: #001abb;
+        }
+
+        #app2 div p:hover{
+            transition: 0.8s;
+            color: white;
         }
         
         #app2 div img{
         width: 30rem;
         height: 30rem;
-        margin-left: 70px;
+        margin-left: 80px;
         margin-top: 70px;
         box-shadow: 6px 6px 6px white;
         
@@ -251,6 +274,7 @@ div h2{
             margin-top: 30px;
             margin-left: 30px;
             box-shadow: 4px 4px 4px black;
+            margin-left: 50px;
             
         }
 
@@ -258,7 +282,7 @@ div h2{
         #app2 i:hover{
          transition: 0.8s; 
          color: white;
-         background-color: black;
+         background-color: blue;
 
         }
 
@@ -270,7 +294,7 @@ div h2{
             justify-content: end;
             margin-right: 80px;
             background-color: white;
-            color: #005900;
+            color: #001abb;
           }
         
           #capital:hover{
