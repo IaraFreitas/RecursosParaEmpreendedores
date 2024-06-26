@@ -139,12 +139,14 @@ header{
 }
 
 .line{
-    width: 150px;/*ajusta a largura da página*/
-    margin-bottom: 40px;/*margem inferior*/
+    width: 10rem;/*ajusta a largura da página*/
+    margin-bottom: 2rem;/*margem inferior*/
+    margin-top: 1.5rem;
+    margin-left: 9rem;
 }
 
 .btn-enviar{
-    background-color: #89a7b1;/*muda a cor de fundo do botão*/
+    background-color: #020da3;/*muda a cor de fundo do botão*/
     width: 230px;/*ajusta a largura do botão*/
     height: 25px;/*ajusta a altura do botão*/
     color: white;/*muda a cor da letra*/
@@ -153,7 +155,7 @@ header{
 }
 
 .btn-enviar:hover{
-    background-color: #566691;/*muda a cor ao passar o mouse no botão*/
+    background-color: #34c7ce;/*muda a cor ao passar o mouse no botão*/
     transition: 0.6s;/*faz a transição da cor ao passar o mause no botão, dá vida ao botão*/
     cursor: pointer;/*muda o formato da seta para uma mão ao passar o mouse em cima do botão*/
 }
@@ -169,16 +171,20 @@ header{
     height: 23px;/*ajusta a altura do botão*/
     font-size: 10px;/*ajusta o tamanho do botão*/
     color: white;/*muda a cor da letra no texto do botão*/
-    background-color: #89a7b1;/*muda a cor de fundo do botão*/
+    background-color: #020da3;/*muda a cor de fundo do botão*/
     margin: 20px;/*colocando apenas uma unidade de medida o sistema entende que todos os lados da margem tem o mesmo tamanho*/
     border-radius: 7px;/*arredonda as bordas da caixa*/
 }
 
+.content button a{
+    color: white;
+}
+
 .content button:hover{
-    background-color: #566691;/*muda a cor de fundo ao passar o mouse*/
+    background-color: #34c7ce;/*muda a cor de fundo ao passar o mouse*/
     transition: 0.6s;/*da vida a mudança da cor ao passar o mouse no botão */
     cursor: pointer;/*muda a seta do mouse para uma mão ao passar o mouse sobre o botão*/
-    border-color: blue;/*muda a cor da borda ao passar o mouse*/
+    border-color: #020da3;/*muda a cor da borda ao passar o mouse*/
 }
 
 
