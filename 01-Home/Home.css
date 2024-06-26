@@ -154,13 +154,17 @@ header{
     margin-bottom: 1rem;
 }
 
+#Bloco-00 p{
+    font-size: 20px;
+}
+
 #Bloco-02{
     padding: 2em;
     height: 33vh;
     width: 100%;
     color: black;
     text-align: center;
-    background-color: #5774ee;
+    background-color: #34c7ce;
     box-shadow: 1px 1px 5px 5px #2b3676;
     font-size: 25px;
 }
@@ -241,7 +245,17 @@ header{
 }
 
 #Bloco-04 p{
-    margin-top: 10px;
+    margin-top: -5px;
+}
+
+#Bloco-04 .one-a{
+    color: #34c7ce;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+#Bloco-04 .one-b{
+    font-size: 10px;
 }
 
 #Bloco-05{
