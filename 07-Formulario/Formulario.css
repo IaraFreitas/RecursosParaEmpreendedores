@@ -16,9 +16,7 @@ header{
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 0px 8px 8px #2b3676;
-    position: sticky;
-    top: 0;
-    left: 0;
+    
 }
 
 .logo img{
@@ -195,38 +193,29 @@ header{
 #footer{
     display: flex;
     justify-content: space-evenly;
-    padding: 8vh;
+    padding: 2vh;
     background-color: #020da3;
     color: white;
     align-items: center;
 }
 
 #footer .footer-logo img{
-    height: 25vh;
-    width: 20vw;
-    padding: 2px;
+    height: 20vh;
+    width: 17vw;
+    padding: 1px;
     align-items: center;
 }
 
 #footer .contatos i {
-   font-size: 3rem;
+   font-size: 2rem;
    margin-right: 20px;
-   padding: 20px;
+   padding: 2px;
 }
 
 #footer .contatos p{
     text-align: center;
     font-size: 25px;
-    margin-bottom: 15px;
-}
-
-#footer .footer-map p{
     margin-bottom: 10px;
-}
-
-.footer-map iframe{
-    width: 300px;
-    height: 250px;
 }
 
 #footer .div-meio{
@@ -242,7 +231,6 @@ header{
 #footer .div-meio .atendimento p{
     margin-bottom: 8px;
 }
-
 
 
 
