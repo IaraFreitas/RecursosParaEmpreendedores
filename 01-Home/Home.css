@@ -155,7 +155,6 @@ header{
 }
 
 #Bloco-02{
-    
     padding: 2em;
     height: 33vh;
     width: 100%;
@@ -165,6 +164,8 @@ header{
     box-shadow: 1px 1px 5px 5px #2b3676;
     font-size: 25px;
 }
+
+
 
 #Bloco-02 h2{
     margin-bottom: 1.5em;
