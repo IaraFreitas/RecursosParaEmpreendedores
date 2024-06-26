@@ -154,3 +154,61 @@ padding: 30px;
 }
 
 
+/*configuração do footer*/
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vh;
+    background-color: #020da3;
+    color: white;
+    align-items: center;
+}
+
+#footer .footer-logo img{
+    height: 20vh;
+    width: 17vw;
+    padding: 1px;
+    align-items: center;
+}
+
+#footer .contatos i {
+   font-size: 2rem;
+   margin-right: 20px;
+   padding: 2px;
+}
+
+#footer .contatos p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#footer .div-meio{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+#footer .div-meio .atendimento{
+    padding: 2rem;
+}
+
+#footer .div-meio .atendimento p{
+    margin-bottom: 8px;
+}
+
+
+
+
+/*responsividade*/
+
+@media(max-width: 400px){
+
+    .nav-links{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+};
