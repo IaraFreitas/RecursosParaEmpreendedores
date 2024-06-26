@@ -173,7 +173,7 @@ padding: 30px;
     height: 22px;
 }
 
-.btn-enviar-input:hover{
+.btn-enviar-input a:hover{
     background-color: #34c7ce;
     transition: 0.6s;
     cursor: pointer;
