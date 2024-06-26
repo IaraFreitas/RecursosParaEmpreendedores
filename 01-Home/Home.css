@@ -67,9 +67,6 @@ header{
     height: 4vh;
 }
 
-
-
-
 .nav-links .icon-login{
     width: 3.2rem;
     margin-right: -10PX;
@@ -158,6 +155,7 @@ header{
 }
 
 #Bloco-02{
+    
     padding: 2em;
     height: 33vh;
     width: 100%;
