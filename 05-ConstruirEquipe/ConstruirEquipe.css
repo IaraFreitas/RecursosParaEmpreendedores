@@ -188,10 +188,28 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 30px;
  
 }
 
+button {
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: #020da3;
+    color: white;
+    margin-left: 300px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 20px;
+    
+}
 
+button:hover {
+    transition: 0.8s;
+    background-color:  aqua;
+    color: #020da3;
+    
+
+}
 
 /*configuração do footer*/
 #footer{
