@@ -167,10 +167,14 @@ padding: 30px;
     width: 30%;
 }
 
-.btn-enviar-dados:hover{
-    background-color: #34c7ce;
+.btn-enviar{
     color: white;
     border-color:#2b3676;
+    height: 22px;
+}
+
+.btn-enviar-input:hover{
+    background-color: #34c7ce;
     transition: 0.6s;
     cursor: pointer;
 }
