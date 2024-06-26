@@ -67,9 +67,6 @@ header{
     height: 4vh;
 }
 
-
-
-
 .nav-links .icon-login{
     width: 3.2rem;
     margin-right: -10PX;
@@ -129,11 +126,11 @@ header{
 }
 
 
-/*configuração do Formulário/Login*/
+/* configuração do Formulário/Login
 #formulario-login{
     height: 70vh;
     background-color: orangered;
-}
+} */
 
 
 
