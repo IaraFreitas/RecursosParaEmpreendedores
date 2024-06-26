@@ -16,9 +16,7 @@ header{
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 0px 8px 8px #2b3676;
-    position: sticky;
-    top: 0;
-    left: 0;
+   
 }
 
 .logo img{
@@ -122,36 +120,62 @@ padding: 30px;
 
 /*configuração do CADASTRO*/
 .FichaCadastro{
-    margin: 190px auto;
+    margin: 5em auto;
     background-color: rgba(0, 0, 0, 0.467);
     color: white;
-    width: 380px;
-    height: 470px;
-    padding: 30px;
-    font-family: cursive;/*fonte familia*/
+    width: 35%;
+    height: 60vh;
+    padding: 1rem;
     box-shadow: 1px 1px 4px 4px #2b3676;/*coloca a sombra na caixa. É a sombra da Div. Ex. 1px 1px 1px black*/  
-    border: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.FichaCadastro input{
-    border-radius: 12px;
-    width: 220px;
+.FichaCadastro h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.FichaCadastro .line{
+    width: 15rem;/*ajusta a largura da página*/
+    margin-bottom: 2rem;/*margem inferior*/
+    margin-top: 1.5rem;
+    margin-left: 9rem;
+}
+
+.FichaCadastro form label{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.FichaCadastro form input{
+    width: 18rem;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.FichaCadastro form .btn-enviar{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.FichaCadastro form .btn-enviar input{
+    background-color: #020da3;
+    color: white;
+    width: 30%;
 }
 
 .btn-enviar-dados:hover{
-    background-color: darkslategrey;
+    background-color: #34c7ce;
     color: white;
-    border-color: blue;
+    border-color:#2b3676;
     transition: 0.6s;
     cursor: pointer;
 }
 
-.btn-enviar-dados input{
-    margin: 20px;
-    text-align: center;
-    border-radius: 10px;
-    width: 30px;
-}
+
 
 
 /*configuração do footer*/
