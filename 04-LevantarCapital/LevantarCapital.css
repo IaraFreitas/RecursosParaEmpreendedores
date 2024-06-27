@@ -128,7 +128,7 @@ div h2{
 
     text-align: center;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 33px;
     background-color: #001abb;
     padding: 40px;
     color:white;
@@ -137,11 +137,7 @@ div h2{
 
 }
 
-div h2:hover{
-    transition: 0.8s;
-    color:#7becf0;
-    
-}
+
 
 
 
@@ -180,17 +176,15 @@ div h2:hover{
     }
     
     #app div p{
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 20px;
         margin-top: 22px;
         text-align: center;
         margin-left: 50px;
-    }
-
-    #app div p:hover{
-        transition: 0.8s;
         color: white;
     }
+
+    
     
     #app div img{
     width: 30rem;
@@ -249,16 +243,13 @@ div h2:hover{
         }
         
         #app2 div p{
-            font-size: 20px;
+            font-size: 30px;
             margin-bottom: 20px;
             margin-top: 22px;
-            color: #001abb;
-        }
-
-        #app2 div p:hover{
-            transition: 0.8s;
             color: white;
         }
+
+        
         
         #app2 div img{
         width: 30rem;
@@ -288,7 +279,7 @@ div h2:hover{
 
         #capital{
             text-align: center;
-            font-size: 30px;
+            font-size: 32px;
             padding: 10px;
             margin-top: 50px;
             justify-content: end;
@@ -297,11 +288,7 @@ div h2:hover{
             color: #001abb;
           }
         
-          #capital:hover{
-            transition: 0.8s;
-            color: black;
-            background-color: white;
-          }
+         
         
         
            #capital p{
