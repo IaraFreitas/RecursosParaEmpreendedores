@@ -47,8 +47,12 @@
     flex-wrap: wrap;
 }
 
-/*configurações do header*/
+body {
+    background-color: black;
+}
 
+/*configurações do header*/
+ 
 header{
     padding: 1vh;
     height: 20vh;
@@ -64,15 +68,28 @@ header{
 .logo img{
     width:  15rem;
     height: 8rem;
+    background-color: black;
 }
+.logo{
+    background-color: black;
+}
+
+.sessao1 {
+    background-color: black;
+}
+   
+     
+
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: rgb(255, 255, 255);
     align-items: center;
     padding: 10px 30px;
     height: 50px;
+   
+    
 }
 
 .nav-links{
@@ -93,6 +110,7 @@ header{
     color: white;
     text-decoration: 0.3s;
     font-size: 23px;
+    
 }
 
 .nav-links .icon-login{
@@ -144,6 +162,7 @@ header{
     color: white;
     cursor: pointer;
     display: none;
+    
 }
 
 .close {
@@ -155,11 +174,15 @@ header{
 
 .texto {
     text-align: center;
+    font-size: 20px;
+    color: white;
+    
 }
 .bill img {
     max-width: 100%;
     display: block;
     background-image: center;
+    
 }
 .bill {
    display: flex;
@@ -169,11 +192,21 @@ header{
    margin-bottom: 80px;
    text-align: center;
    color: blue;
+   background-color: #89ccda;
 
 
 
 
+} 
+
+.sessao {
+    background-color: black;
 }
+
+
+
+
+
 
 
 
@@ -189,7 +222,8 @@ header{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
- 
+    font-size:30px; 
+    color: black;
 }
 
 button {
@@ -202,6 +236,10 @@ button {
     margin-top: 20px;
     
 }
+.preto {
+background-color:aqua;
+
+}
 
 button:hover {
     transition: 0.8s;
@@ -212,7 +250,7 @@ button:hover {
 }
 
 /*configuração do footer*/
-#footer{
+#footer {
     display: flex;
     justify-content: space-evenly;
     padding: 8vh;
@@ -221,7 +259,7 @@ button:hover {
     align-items: center;
 }
 
-#footer .footer-logo img{
+#footer .footer-logo img {
     height: 25vh;
     width: 20vw;
     padding: 2px;
