@@ -131,9 +131,31 @@ background-color: pink;
 padding: 30px;
 }
 
+#Bloco-01{
+    height: 65vh;
+    padding: 2rem;
+    margin-left: 0%;
+}
 
+#Bloco-01 h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
+#Bloco-01 iframe{
+    margin-left: 30%;
+}
 
+#Bloco-01 h3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#Bloco-01 p{
+   font-size: 14px;
+}
 
 
 
