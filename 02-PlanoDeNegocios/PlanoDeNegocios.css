@@ -131,8 +131,10 @@ background-color: pink;
 padding: 30px;
 }
 
+
+/*configuração dos BLOCOS*/
 #Bloco-01{
-    height: 65vh;
+    height: 65vh;  /*definido o tamanho padrão de cada bloco criado nesta página*/
     padding: 2rem;
     margin-left: 0%;
 }
@@ -157,8 +159,46 @@ padding: 30px;
    font-size: 14px;
 }
 
+#Bloco-02{
+    height: 65vh;  
+    padding: 2rem;
+    margin-left: 0%;
+    background-color: #34c7ce;
+}
 
+#Bloco-02 h2{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
+#Bloco-02 h3{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+#Bloco-02 .div-Bloco-02{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-bottom: 2.5rem;
+}
+
+#Bloco-02 .div-Bloco-02 .Bloco-02-padrao {
+    text-align: justify;
+    width: 21vw;
+    height: 27vh;
+    box-shadow: 5px 5px 9px 2px #2b3676;
+    border-radius: 5px;
+    padding: 1.5rem;
+    background-color: white;
+}
+
+#Bloco-02 .div-Bloco-02 .Bloco-02-padrao{
+    font-size: 16px;
+}
 
 /*configurações do footer*/
 
@@ -223,11 +263,18 @@ padding: 30px;
 
 @media(max-width: 400px){
 
-    .nav-links{
-        display: none;
-    }
-
-    .hamburger{
+    body{
         display: block;
     }
+
+    #Bloco-01 iframe{
+        width: 350px;
+        height: 300px;
+        margin-left: 0%;
+    }
+
+    .div-Bloco-02{
+        display: block;
+    }
+   
 }
