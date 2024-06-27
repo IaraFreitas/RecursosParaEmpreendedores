@@ -18,10 +18,10 @@
 
         <?php
             $nome = $_GET["nome"];
-            $sobrenome = $_GET["sobrenome"];
-            $telefone = $_GET ["telefone"];
+            $email = $_GET["email"];
+            $senha = $_GET ["senha"];
 
-            echo "<p>É um prazer... $nome $sobrenome! Entraremos em contato com você.... </P>";
+            echo "<p>É um prazer ter você qui $nome! Entraremos em contato com você.</p>";
         ?>
 
         <button class="text.js"> 
