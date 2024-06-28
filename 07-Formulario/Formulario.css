@@ -127,7 +127,7 @@ header{
 .container{
     background-color:rgba(0, 0, 0, 0.467);/*cor de fundo*/
     width: 30%;/*largura da div*/
-    height: 45vh;/*altura da div*/
+    height: 50vh;/*altura da div*/
     color: white;/*color da div*/
     margin: 5em auto; /*uso para centralizar a caixa na página*/
     text-align: center;/*alinha o texto*/
