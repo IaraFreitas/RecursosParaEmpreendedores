@@ -196,12 +196,12 @@ div h2{
     }
 
    #app h2{
-    font-size: 30px;
+    font-size: 40px;
     padding: 80px;
     margin-left: 180px;
     margin-top: 170px;
     margin-left: 30px;
-    box-shadow: 4px 4px 4px black;
+    box-shadow: 6px 6px 6px white;
    }
 
    #app p{
