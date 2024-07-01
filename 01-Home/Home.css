@@ -259,8 +259,8 @@ header{
 }
 
 #Bloco-05{
-    padding: 1em;
-    height: 63vh;
+    padding: 2rem;
+    height: 65vh;
     width: 100%;
     display: block;
     justify-content: space-between;
@@ -304,8 +304,9 @@ header{
     margin-bottom: 4em;
     box-shadow: 10px 10px 10px #2b3676;
     border-radius: 8px 8px 8px 8px #2b3676;
-
     }
+
+
   
 /*configuração do footer*/
 #footer{
