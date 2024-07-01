@@ -1,8 +1,6 @@
 //Alerta de boas vindas aos visitantes do site
-seuNome = prompt ('Olá. Informe o seu nome por gentileza?');
-alert(`Bem vindo à Empreender Jr ${seuNome}, estamos felizes com sua visita.`);
-
-
+// let seuNome = prompt ('Olá. Informe o seu nome por gentileza?');
+// alert(`Bem vindo à Empreender Jr ${seuNome}, estamos felizes com sua visita.`);
 
 
 //neste bloco estamos recuperando os botões
