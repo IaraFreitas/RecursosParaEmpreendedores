@@ -2,7 +2,8 @@
  TCC – Recursos para Empreendedores
  Link do site: https://iarafreitas.github.io/RecursosParaEmpreendedores/01-Home/Home.html
 
- QRCode <img src="01-Home/ImgHome/QRCode-EmpreenderJr.png" alt="" width=150px>
+ QRCode 
+ <img src="01-Home/ImgHome/QRCode-EmpreenderJr.png" alt="" width=150px>
 
  Integrantes: 
  Iara     |  GitHub if.dev_
