@@ -279,6 +279,31 @@ padding: 30px;
     color: #34c7ce;
 }
 
+#Bloco-04 .divP{
+    display: flex;
+    margin-left: 4rem;
+    gap: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#Bloco-04 .divP .one{
+    width: 40vw;
+    text-align: justify;
+}
+
+#Bloco-04 h2{
+    font-size: 25px;
+    padding: 1rem;
+}
+
+#Bloco-04 p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+
+
 /*configurações do footer*/
 #footer{
     display: flex;
