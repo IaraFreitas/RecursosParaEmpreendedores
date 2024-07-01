@@ -231,9 +231,55 @@ padding: 30px;
 }
 
 
+/*configuração do Bloco-03*/
+#Bloco-03{
+    height: 65vh;  /*definido o tamanho padrão de cada bloco criado nesta página*/
+    padding: 2rem;
+    margin-left: 0%;
+/* 
+    background-image: url(ImgPlanoDeNegocios/img-planoNegocios.jpg);
+    background-repeat: no-repeat;
+    background-size: 50vw 75vh; */
+    
+    display: flex;
+}
+
+#Bloco-03 img{
+    width: 50vw;
+    height: 65vh;
+    margin-left: 3rem;
+}
+
+#Bloco-03 div{
+    padding: 4rem;
+}
+
+#Bloco-03 h2{
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+#Bloco-03 p{
+    font-size: 25px;
+    margin-bottom: 1rem;
+    
+}
+
+/*configuração do Bloco-04*/
+#Bloco-04{
+    height: 65vh;  /*definido o tamanho padrão de cada bloco criado nesta página*/
+    padding: 2rem;
+    margin-left: 0%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#Bloco-04 .nomePJ{
+    color: #34c7ce;
+}
 
 /*configurações do footer*/
-
 #footer{
     display: flex;
     justify-content: space-evenly;
@@ -303,6 +349,11 @@ padding: 30px;
         width: 350px;
         height: 300px;
         margin-left: 0%;
+    }
+
+    #Bloco-01 h3{
+        width: 350px;
+
     }
 
     .div-Bloco-02{
