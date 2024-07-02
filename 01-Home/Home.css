@@ -448,11 +448,30 @@ footer{
 @media(max-width:400px){
     /* é o padrão das menores telas no mercado 400 x 642  */
     body{
-        background-color: red;
+        background-color: gold;
     }
     
     header{
-        width: 97vw;
+        width: 92.3vw;
+        padding: 1em;
+    }
+
+    header .navbar{
+        display: flex;
+        gap: 10px;
+    }
+    header .navbar .logo{
+        width: 10px;
+        height: 8px;
+    }
+
+    header .navbar .nav-links{
+        display: list-item;
+        gap: 20px;
+    }
+
+    header .navbar .nav-links a{
+        font-size: 20px;
     }
     
     #Bloco-01{
