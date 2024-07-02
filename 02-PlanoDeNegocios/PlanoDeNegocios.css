@@ -251,7 +251,7 @@ padding: 30px;
 }
 
 #Bloco-03 div{
-    padding: 4rem;
+    padding: 2rem;
 }
 
 #Bloco-03 h2{
@@ -363,6 +363,24 @@ padding: 30px;
 
 
 /*responsividade*/
+
+@media(max-width:1920px){
+
+}
+
+@media(max-width:1380px){
+    #Bloco-03{
+        height: 65vh;  /*definido o tamanho padrão de cada bloco criado nesta página*/
+        padding: 2rem;
+        margin-left: 0%;
+    /* 
+        background-image: url(ImgPlanoDeNegocios/img-planoNegocios.jpg);
+        background-repeat: no-repeat;
+        background-size: 50vw 75vh; */
+        
+        display: flex;
+    }
+}
 
 @media(max-width: 400px){
 
