@@ -24,7 +24,7 @@ header{
 
 .logo img{
     width:  15rem;
-    height: 8rem;
+    height: 7.5rem;
 }
 
 .navbar{
@@ -288,13 +288,13 @@ padding: 30px;
 }
 
 #Bloco-04 .divP .one{
-    width: 40vw;
+    width: 38vw;
     text-align: justify;
 }
 
 #Bloco-04 h2{
     font-size: 25px;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #Bloco-04 p{
