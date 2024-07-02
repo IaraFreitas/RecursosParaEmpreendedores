@@ -198,13 +198,11 @@ header{
     font-size: 20px;
     color: black;
     margin-bottom: -20px;
-    
 }
 
 #Bloco-03 h2{
     margin-bottom: 2rem;
     margin-right: 70rem;
-
 }
 
 #Bloco-03 p{
@@ -216,7 +214,6 @@ header{
 #Bloco-03 a a:hover{
     color: #34c7ce;
 }
-
 
 
 /*configuração da nuvem de palavras*/
@@ -304,7 +301,6 @@ header{
     border-radius: 8px 8px 8px 8px #2b3676;
     }
 
-
   
 /*configuração do footer*/
 #footer{
@@ -360,12 +356,9 @@ header{
 }
 
 
-
-
 /*responsividade*/
-
 @media(max-width:1920px){
-    /* é o padrão da tela onde o site foi desencolvido 1920 x 1080px */
+    /* é o padrão da tela onde o site foi desenvolvido 1920 x 1080px */
 }
   
 
@@ -455,7 +448,6 @@ footer{
         width: 92.3vw;
         padding: 1em;
         height: 30vh;
-        
     }
 
     header .navbar{
@@ -471,7 +463,6 @@ footer{
     header .navbar .nav-links{
         display: inline-flex;
         margin-top: 8rem;
-        
     }
 
     header .navbar .nav-links a{
@@ -529,7 +520,7 @@ footer{
         height: 40vh;
         width: 80%;
         margin-top: 2rem;
-        }
+    }
     
     #Bloco-05 .base p{
         font-size: 15px;
@@ -636,7 +627,6 @@ footer{
     #footer .div-meio .atendimento p{
         margin-bottom: 8px;
     }
-
 
     }
     /* fim da configuração de 400 x 768 */

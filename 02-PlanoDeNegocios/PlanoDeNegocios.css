@@ -9,7 +9,6 @@
 }
 
 /*configurações do header*/
-
 header{
     padding: 1vh;
     height: 20vh;
@@ -236,11 +235,6 @@ padding: 30px;
     height: 65vh;  /*definido o tamanho padrão de cada bloco criado nesta página*/
     padding: 2rem;
     margin-left: 0%;
-/* 
-    background-image: url(ImgPlanoDeNegocios/img-planoNegocios.jpg);
-    background-repeat: no-repeat;
-    background-size: 50vw 75vh; */
-    
     display: flex;
 }
 
@@ -262,7 +256,6 @@ padding: 30px;
 #Bloco-03 p{
     font-size: 25px;
     margin-bottom: 1rem;
-    
 }
 
 /*configuração do Bloco-04*/
@@ -301,7 +294,6 @@ padding: 30px;
     font-size: 18px;
     margin-bottom: 1rem;
 }
-
 
 
 /*configurações do footer*/
@@ -346,39 +338,58 @@ padding: 30px;
     display: block;
     align-items: center;
     text-align: center;
-    
 }
 
 #footer .div-meio .atendimento{
     padding: 2rem;
-    
 }
 
 #footer .div-meio .atendimento p{
     margin-bottom: 8px;
-    
 }
-
-
 
 
 /*responsividade*/
-
 @media(max-width:1920px){
-
+    /* é o padrão da tela onde o site foi desenvolvido 1920 x 1080px */
 }
 
-@media(max-width:1380px){
+@media(max-width:1360px){
+    body{
+        background-color: none;
+    }
+
+    header{
+        width: 98.5vw;
+    }
+
+    #Bloco-01{
+        width: 94.7vw;
+    }
+
+    #Bloco-02{
+        width: 95vw;
+    }
+
     #Bloco-03{
-        height: 65vh;  /*definido o tamanho padrão de cada bloco criado nesta página*/
-        padding: 2rem;
-        margin-left: 0%;
-    /* 
-        background-image: url(ImgPlanoDeNegocios/img-planoNegocios.jpg);
-        background-repeat: no-repeat;
-        background-size: 50vw 75vh; */
-        
-        display: flex;
+       width: 94.8vw;
+       height: 55vh;
+       box-shadow: 0px 0px 3px 0px red;
+
+    }
+
+    #Bloco-03 img{
+        width: 46vw;
+        height: 55vh;
+        margin-left: 3rem;
+    } 
+    
+    #Bloco-04{
+        width: 95vw;
+    }
+
+    #footer{
+        width: 90.6vw;
     }
 }
 
