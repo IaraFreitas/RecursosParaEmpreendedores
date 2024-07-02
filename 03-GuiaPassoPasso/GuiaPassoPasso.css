@@ -61,16 +61,23 @@ header{
    font-size: 23px;
 }
 
+.nav-login{
+   align-items: center;
+   display: flex;
+}
+
+.nav-login img{
+   width: 3.2rem;
+   margin-right: -35PX; 
+   height: 4vh;
+}
+
 .nav-links .icon-login{
    width: 3.2rem;
    margin-right: -10PX;
 }
 
 .nav-links .icon-login a:hover{
-   color: #34c7ce;
-}
-
-.nav-links a:hover{
    color: #34c7ce;
 }
 
