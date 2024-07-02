@@ -16,7 +16,7 @@ header{
     background-color: #020da3;
     margin-top: 0;
     margin-bottom: 0;
-    box-shadow: 0px 8px 8px #2b3676;
+    box-shadow: 0px 8px 8px 0px #2b3676;
     position: sticky;
     top: 0;
     left: 0;
@@ -165,11 +165,9 @@ header{
     color: black;
     text-align: center;
     background-color: #34c7ce;
-    box-shadow: 1px 1px 5px 5px #2b3676;
+    box-shadow: 0px 0px 5px 0px #2b3676;
     font-size: 25px;
 }
-
-
 
 #Bloco-02 h2{
     margin-bottom: 1.5em;
@@ -194,7 +192,7 @@ header{
     width: 100%;
     background-position: center;
     border-radius: #5774ee;
-    box-shadow: 8px 8px 8px 8px #2b3676;
+    box-shadow: 0px 8px 1px 0px #2b3676;
     border: 8px 8px 8px 8px #2b3676;
     text-align: center;
     font-size: 20px;
@@ -230,7 +228,7 @@ header{
     color: white;
     text-align: center;
     border: 8px 8px 8px 8px #2b3676;
-    box-shadow: 8px 8px 8px 8px #2b3676;
+    box-shadow: 0px 8px 8px 0px #2b3676;
 }
 
 #Bloco-04 h2{
@@ -266,9 +264,8 @@ header{
     justify-content: space-between;
     background-color: black;
     color: white;
-    box-shadow: 10px 10px 10px #2b3676;
+    box-shadow: 0px 10px 10px 0px #2b3676;
     border-radius: 8px 8px 8px 8px #2b3676;
-
 }
 
 #Bloco-05 h2{
@@ -278,6 +275,7 @@ header{
     margin-top: 2em;
     margin-bottom: -2em;
 }
+
 #Bloco-05 .base{
     padding: 1em;
     display: flex;
@@ -366,12 +364,84 @@ header{
 /*responsividade*/
 
 @media(max-width:1920px){
-
+  /* é o padrão da tela onde o site foi desencolvido 1920 x 1080px */
 }
 
-@media(max-width:1380px){
 
+@media(max-width:1360px){
+/* é o padrão das telas da Dom Bosco 1360 x 768 */
+header{
+    width: 98.7vw;
 }
+
+#Bloco-01{
+    width: 97.5vw;
+}
+
+#Bloco-00{
+    width: 96.5vw;
+}
+#Bloco-02{
+    width: 92.4vw;
+}
+
+#Bloco-02 h2{
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+#Bloco-02 p{
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+#Bloco-05{
+    width: 95.1vw;
+}
+
+#Bloco-05 .base{
+    height: 70vh;
+    width: 100%;
+    }
+
+#Bloco-05 .base p{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#Bloco-05 .divOne{
+   padding: 4rem;
+   margin-left: 4.5em;
+   margin-bottom: 4em;
+   box-shadow: 10px 10px 10px 7px #2b3676;
+   border-radius: 8px 8px 8px 8px #2b3676;
+}
+
+#Bloco-03{
+    width: 94.2vw;
+}
+
+#Bloco-03 h2{
+    margin-bottom: 2rem;
+    margin-right: 60rem;
+}
+
+#Bloco-03 p{
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    margin-right: 60rem;
+}
+
+#Bloco-04{
+    width: 97.5vw;
+}
+
+footer{
+    width: 90.9vw;
+}
+}
+/* fim da configuração de 1360 x 768 */
+
 
 @media(max-width: 400px){
 
