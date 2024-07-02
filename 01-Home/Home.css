@@ -454,20 +454,24 @@ footer{
     header{
         width: 92.3vw;
         padding: 1em;
+        height: 30vh;
+        
     }
 
     header .navbar{
-        display: flex;
-        gap: 10px;
+        display: block;
     }
     header .navbar .logo{
         width: 10px;
         height: 8px;
+        margin-left: 15%;
+        margin-top: -8px;
     }
 
     header .navbar .nav-links{
-        display: list-item;
-        gap: 20px;
+        display: inline-flex;
+        margin-top: 8rem;
+        
     }
 
     header .navbar .nav-links a{
@@ -479,14 +483,14 @@ footer{
     }
     
     #Bloco-00{
-        width: 91vw;
+        width: 90.5vw;
     }
 
     #Bloco-00 h1{
-        font-size: 25px;
+        font-size: 22px;
     }
     #Bloco-00 p{
-        font-size: 18px;
+        font-size: 17px;
     }
 
     #Bloco-02{
@@ -507,50 +511,132 @@ footer{
     
     #Bloco-05{
         padding: 2rem;
-        height: 65vh;
+        height: 50vh;
         width: 84.3vw;
         display: flex;
     }
+
+    #Bloco-05 h2{
+        font-size: 19px;
+        margin-top: -10px;
+    }
     
     #Bloco-05 .base{
+        padding: 1em;
+        display: flex;
+        gap: 5px;
+        align-items: center;
         height: 40vh;
-        width: 0%;
+        width: 80%;
+        margin-top: 2rem;
         }
     
     #Bloco-05 .base p{
         font-size: 15px;
-        
     }
     
     #Bloco-05 .divOne{
-       padding: 4rem;
-       margin-left: 4.5em;
-       margin-bottom: 4em;
-       box-shadow: 10px 10px 10px 7px #2b3676;
+       padding: 1rem;
+       margin-left: 0.5em;
+       margin-right: 0.5em;
+       width: 80vw;
+       height: 8vh;
+       margin-bottom: 5px;
+       box-shadow: 4px 3px 10px 2px #2b3676;
        border-radius: 8px 8px 8px 8px #2b3676;
     }
     
     #Bloco-03{
-        width: 94.2vw;
+        width: 84.1vw;
+        background-size: 100%;
+        height: 30vh;
     }
     
     #Bloco-03 h2{
-        margin-bottom: 2rem;
-        margin-right: 60rem;
+        margin-bottom: 5px;
+        margin-right: 0px;
+        font-size: 20px;
+        color: #020da3;
+        font-weight: 600;
     }
     
     #Bloco-03 p{
-        margin-bottom: 0.5rem;
-        font-weight: 900;
-        margin-right: 60rem;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-right: 2rem;
+    }
+
+    #Bloco-03 p a{
+        color: black;
     }
     
     #Bloco-04{
-        width: 97.5vw;
+        width: 92.1vw;
+    }
+
+    #Bloco-04 h2 {
+        font-size: 20px;
+    }
+
+    #Bloco-04 img{
+        width: 90%;
+        height: 65%;
+    }
+
+    #Bloco-04 p{
+        margin-top: -10px;
     }
     
-    footer{
-        width: 90.9vw;
+    #footer{
+        width: 81vw;
+        height: 100vh;
+        display: block;
     }
+   
+    #footer .footer-logo img{
+        height: 20vh;
+        width: 35vw;
+        padding: 0px;
+        align-items: center;
+        margin-left: 22%;
+        margin-bottom: 2rem;
+    }
+    
+    #footer .contatos i {
+       font-size: 1.2rem;
+       margin-right: 20px;
+       padding: 20px;
+    }
+    
+    #footer .contatos p{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    #footer .footer-map p{
+        margin-bottom: 10px;
+    }
+    
+    .footer-map iframe{
+        width: 300px;
+        height: 250px;
+    }
+    
+    #footer .div-meio{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #footer .div-meio .atendimento{
+        padding: 2rem;
+    }
+    
+    #footer .div-meio .atendimento p{
+        margin-bottom: 8px;
+    }
+
+
     }
     /* fim da configuração de 400 x 768 */
