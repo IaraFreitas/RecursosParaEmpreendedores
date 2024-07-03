@@ -1,5 +1,5 @@
 /*configuração global*/
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
@@ -10,7 +10,7 @@
 
 
 /*configurações do header*/
-header{
+header {
     height: 22vh;
     width: 100vw;
     padding: 0.5rem;
@@ -23,12 +23,12 @@ header{
     left: 0;
 }
 
-.logo img{
-    width:  240px;
+.logo img {
+    width: 240px;
     height: 140px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     gap: 15px;
@@ -39,7 +39,7 @@ header{
     margin-right: 1rem;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -53,33 +53,33 @@ header{
 }
 
 .nav-links a,
-.nav-links-mobile a{
+.nav-links-mobile a {
     color: white;
     text-decoration: 0.3s;
     font-size: 23px;
 }
 
-.nav-login{
+.nav-login {
     align-items: center;
     display: flex;
 }
 
-.nav-login img{
+.nav-login img {
     width: 3.2rem;
-    margin-right: -35PX; 
+    margin-right: -35PX;
     height: 4vh;
 }
 
-.nav-links .icon-login{
+.nav-links .icon-login {
     width: 3.2rem;
     margin-right: -10PX;
 }
 
-.nav-links .icon-login a:hover{
+.nav-links .icon-login a:hover {
     color: #34c7ce;
 }
 
-.nav-links a:hover{
+.nav-links a:hover {
     color: #34c7ce;
 }
 
@@ -127,15 +127,16 @@ header{
     display: block;
     align-self: end;
 }
+
 /*fim da confuguração do CABEÇALHO*/
 
 
 
 
-.texte-body{
-height: 30vh;
-background-color: pink;
-padding: 30px;
+.texte-body {
+    height: 30vh;
+    background-color: pink;
+    padding: 30px;
 }
 
 
@@ -146,12 +147,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color:beige;
+    background-color: beige;
 }
 
 
 
-.div-pai{
+.div-pai {
     display: flex;
 }
 
@@ -160,7 +161,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
-    
+
 }
 
 
@@ -178,22 +179,22 @@ footer {
     bottom: 0;
     width: 100%;
     justify-content: space-between;
-   
+
 }
+
+
 
 .efeito-imagem img {
     transition: opacity 0.5s;
-    align-items: justify;
-    text-align: center;
-    width: 30rem;
-    justify-content: center;
-    font-size: 20px;
    
+    width: 30rem;
+    font-size: 20px;
+
 }
 
 .efeito-imagem:hover img {
     opacity: 0;
-   
+
 }
 
 .efeito-imagem .text {
@@ -213,7 +214,7 @@ footer {
 .text {
     align-items: justify;
     text-align: center;
-    width: 30rem;
+    width: 30%;
     justify-content: center;
     font-size: 20px;
     font-family: sans-serif;
@@ -228,8 +229,8 @@ footer {
 .efeito-imagem {
     justify-content: center;
     align-items: center;
-
-    display: flex;
+    width: 30vw;
+    display: grid;
 }
 
 .rede i:hover {
@@ -241,7 +242,7 @@ footer {
 
 
 /*configurações do footer*/
-#footer{
+#footer {
     display: flex;
     justify-content: space-evenly;
     padding: 8vh;
@@ -250,7 +251,7 @@ footer {
     align-items: center;
 }
 
-#footer .footer-logo img{
+#footer .footer-logo img {
     height: 25vh;
     width: 20vw;
     padding: 2px;
@@ -258,41 +259,41 @@ footer {
 }
 
 #footer .contatos i {
-   font-size: 3rem;
-   margin-right: 20px;
-   padding: 20px;
+    font-size: 3rem;
+    margin-right: 20px;
+    padding: 20px;
 }
 
-#footer .contatos p{
+#footer .contatos p {
     text-align: center;
     font-size: 25px;
     margin-bottom: 15px;
 }
 
-#footer .footer-map p{
+#footer .footer-map p {
     margin-bottom: 10px;
 }
 
-.footer-map iframe{
+.footer-map iframe {
     width: 300px;
     height: 250px;
 }
 
-#footer .div-meio{
+#footer .div-meio {
     display: block;
     align-items: center;
     text-align: center;
-    
+
 }
 
-#footer .div-meio .atendimento{
+#footer .div-meio .atendimento {
     padding: 2rem;
-    
+
 }
 
-#footer .div-meio .atendimento p{
+#footer .div-meio .atendimento p {
     margin-bottom: 8px;
-    
+
 }
 
 
@@ -300,13 +301,13 @@ footer {
 
 /*responsividade*/
 
-@media(max-width: 400px){
+@media(max-width: 400px) {
 
-    .nav-links{
+    .nav-links {
         display: none;
     }
 
-    .hamburger{
+    .hamburger {
         display: block;
     }
 }
