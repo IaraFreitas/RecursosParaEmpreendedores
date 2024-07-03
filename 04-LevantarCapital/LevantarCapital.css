@@ -300,7 +300,6 @@ div h2{
 
 
 /*configurações do footer*/
-
 #footer{
     display: flex;
     justify-content: space-evenly;
@@ -312,7 +311,7 @@ div h2{
 
 #footer .footer-logo img{
     height: 25vh;
-    width: 20vh;
+    width: 20vw;
     padding: 2px;
     align-items: center;
 }
@@ -342,19 +341,15 @@ div h2{
     display: block;
     align-items: center;
     text-align: center;
-    
 }
 
 #footer .div-meio .atendimento{
     padding: 2rem;
-    
 }
 
 #footer .div-meio .atendimento p{
     margin-bottom: 8px;
-    
 }
-
 
 
 
