@@ -340,19 +340,19 @@ padding: 30px;
 @media(max-width:1366px){
   
     header{
-        width: 95vw;
+        width: 100vw;
     }
 
     #Bloco-01{
-        width: 90vw;
+        width: 97vw;
     }
 
     #Bloco-02{
-        width: 90vw;
+        width: 97vw;
     }
 
     #Bloco-03{
-       width: 100vw;
+       width: 97vw;
        height: 55vh;
     }
 
@@ -363,11 +363,11 @@ padding: 30px;
     } 
     
     #Bloco-04{
-        width: 100vw;
+        width: 97vw;
     }
 
     #footer{
-        width: 100vw;
+        width: 91.5vw;
     }
 
 }
@@ -394,7 +394,6 @@ header{
 #Bloco-01{
     width: 100vw;
     background-color: white;
-    box-shadow: 0px 0px 10px 0px red;
 }
 
     #Bloco-01 iframe{
@@ -405,13 +404,11 @@ header{
 
     #Bloco-01 h3{
         width: 350px;
-
     }
 
     #Bloco-02{
         width: 100vw;
         height: 90vh;
-        
     }
 
     .div-Bloco-02 .div-Bloco-02{
