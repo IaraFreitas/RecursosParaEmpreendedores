@@ -444,7 +444,7 @@ footer{
 @media(max-width:480px){
     /* padrão das menores telas no mercado 480 x 830  */
     body{
-        background-color: gold;
+        
     }
     
     header{
@@ -650,7 +650,7 @@ footer{
 @media(max-width:400px){
     /* é o padrão das menores telas no mercado 400 x 768  */
     body{
-        background-color: gold;
+     
     }
     
     header{
