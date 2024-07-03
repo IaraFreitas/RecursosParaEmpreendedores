@@ -8,32 +8,35 @@
     flex-wrap: wrap;
 }
 
-/*configurações do header*/
 
+/*configurações do header*/
 header{
-    padding: 1vh;
-    height: 20vh;
+    height: 22vh;
+    width: 100vw;
+    padding: 0.5rem;
     background-color: #020da3;
     margin-top: 0;
     margin-bottom: 0;
-    box-shadow: 0px 8px 8px #2b3676;
+    box-shadow: 0px 10px 10px 0px #2b3676;
     position: sticky;
     top: 0;
     left: 0;
 }
 
 .logo img{
-    width:  15rem;
-    height: 7.5rem;
+    width:  240px;
+    height: 140px;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
+    gap: 15px;
     color: white;
-    align-items: center;
-    padding: 10px 30px;
-    height: 50px;
+    align-items: unset;
+    height: 22vh;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
 }
 
 .nav-links{
@@ -54,6 +57,17 @@ header{
     color: white;
     text-decoration: 0.3s;
     font-size: 23px;
+}
+
+.nav-login{
+    align-items: center;
+    display: flex;
+}
+
+.nav-login img{
+    width: 3.2rem;
+    margin-right: -35PX; 
+    height: 4vh;
 }
 
 .nav-links .icon-login{
@@ -114,27 +128,20 @@ header{
     align-self: end;
 }
 
-.texte-body{
-height: 30vh;
-background-color: pink;
-padding: 30px;
-}
-
-
 
 /*aqui são as configuraões feitas por você no body que eu não mexi em nada 😉*/
 
 div h2{
-
+    height: 10vh;
     text-align: center;
-    margin-top: 30px;
-    font-size: 33px;
+    margin-top: 0px;
+    font-size: 35px;
     background-color: #001abb;
-    padding: 40px;
+    padding: 3rem;
     color:white;
     box-shadow: 4px 4px 4px black;
     text-shadow: 4px 4px 4px  black;
-
+    margin-top: -4px;
 }
 
 
@@ -142,7 +149,7 @@ div h2{
 
 
 #app{
-    padding: 15rem;
+    padding: 5rem;
     background-color:#187ade ;
     display: flex;
     justify-content: space-between;

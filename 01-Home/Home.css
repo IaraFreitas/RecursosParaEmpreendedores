@@ -8,9 +8,7 @@
     flex-wrap: wrap;
 }
 
-body{
-    background-color: yellowgreen;
-}
+
 /*configurações do header*/
 header{
     height: 22vh;
