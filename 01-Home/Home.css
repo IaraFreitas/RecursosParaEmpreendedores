@@ -441,9 +441,214 @@ footer{
 /* fim da configuração de 1360 x 768 */
 
 
+@media(max-width:480px){
+    /* padrão das menores telas no mercado 480 x 830  */
+    body{
+        background-color: gold;
+    }
+    
+    header{
+        width: 93vw;
+        padding: 1em;
+        height: 30vh;
+    }
+
+    header .navbar{
+        display: block;
+        margin-top: 1rem;
+    }
+    header .navbar .logo{
+        width: 10px;
+        height: 8px;
+        margin-left: 15%;
+        margin-top: -8px;
+        margin-bottom: 25px;
+    }
+
+    header .navbar .nav-links{
+        display: inline-flex;
+        margin-top: 8rem;
+    }
+
+    header .navbar .nav-links a{
+        font-size: 20px;
+    }
+    
+    #Bloco-01{
+        width: 96.5vw;
+        height: 30vh;
+    }
+    
+    #Bloco-00{
+        width: 96.5vw;
+    }
+
+    #Bloco-00 h1{
+        font-size: 22px;
+    }
+    #Bloco-00 p{
+        font-size: 17px;
+    }
+
+    #Bloco-02{
+        width: 96.5vw;
+        height: 33vh;
+    }
+    
+    #Bloco-02 h2{
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 25px;
+    }
+    
+    #Bloco-02 p{
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 18px;
+    }
+    
+    #Bloco-05{
+        padding: 2rem;
+        height: 50vh;
+        width: 86.5vw;
+        display: flex;
+    }
+
+    #Bloco-05 h2{
+        margin-left: 0%;
+        font-size: 19px;
+        font-weight: bolder;
+        margin-top: 1em;
+        text-align: center;
+    }
+    
+    #Bloco-05 .base{
+        padding: 1em;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        height: 40vh;
+        width: 80%;
+        margin-top: 1rem;
+    }
+    
+    #Bloco-05 .base p{
+        font-size: 15px;
+    }
+    
+    #Bloco-05 .divOne{
+       padding: 1rem;
+       margin-left: 0.5em;
+       margin-right: 0.5em;
+       width: 80vw;
+       height: 8vh;
+       margin-bottom: 5px;
+       box-shadow: 4px 3px 10px 2px #2b3676;
+       border-radius: 8px 8px 8px 8px #2b3676;
+    }
+    
+    #Bloco-03{
+        width: 97vw;
+        background-size: cover;
+        height: 29vh;
+    }
+    
+    #Bloco-03 h2{
+        margin-bottom: 20px;
+        margin-right: 0px;
+        font-size: 20px;
+        color: #020da3;
+        font-weight: 600;
+    }
+    
+    #Bloco-03 p{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-right: 2rem;
+    }
+
+    #Bloco-03 p a{
+        color: red;    
+    }
+    
+    #Bloco-04{
+        width: 96.9vw;
+        height: 50vh;
+    }
+
+    #Bloco-04 h2 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    #Bloco-04 img{
+        width: 70%;
+        height: 50%;
+    }
+
+    #Bloco-04 p{
+        margin-top: -10px;
+    }
+    
+    #footer{
+        width: 96.9vw;
+        height: 85vh;
+        display: block;
+    }
+   
+    #footer .footer-logo img{
+        height: 20vh;
+        width: 53vw;
+        padding: 0px;
+        align-items: center;
+        margin-left: 25%;
+        margin-bottom: 1rem;
+    }
+    
+    #footer .contatos i {
+       font-size: 1.2rem;
+       margin-right: 20px;
+       padding: 20px;
+    }
+    
+    #footer .contatos p{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    #footer .footer-map p{
+        margin-bottom: 10px;
+        margin-left: 5%;
+    }
+    
+    .footer-map iframe{
+        width: 300px;
+        height: 250px;
+        margin-left: 5%;
+    }
+    
+    #footer .div-meio{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #footer .div-meio .atendimento{
+        padding: 2rem;
+    }
+    
+    #footer .div-meio .atendimento p{
+        margin-bottom: 8px;
+    }
+
+    }
+    /* fim da configuração de 480 x 830 */
+
+
 
 @media(max-width:400px){
-    /* é o padrão das menores telas no mercado 400 x 642  */
+    /* é o padrão das menores telas no mercado 400 x 768  */
     body{
         background-color: gold;
     }

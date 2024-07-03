@@ -7,11 +7,13 @@
  <img src="01-Home/ImgHome/QRCode-EmpreenderJr.png" alt="logoQRCode" width=150px>
 
  Integrantes: 
- Iara     |  GitHub if.dev_
+ 
  Diego    |  GitHub DiegoMadrake
- Luciano  |  GitHub LucianoGuedes2024
+ Enrique  |  GutHub kkshykk
+ Iara     |  GitHub if.dev_
  Júlia    |  GitHub juatore
- Wesley   |  GitHub Wesleyjuvena
+ Luciano  |  GitHub LucianoGuedes2024
+
 
  <!-- Link para acesso ao Figma > https://www.figma.com/design/7bsf2yJOQIN3H5Y0xX71e8/RecursosParaEmpreendedores?m=dev&node-id=0-1&t=EBqcimSlxStZ5jVF-1 -->
 
