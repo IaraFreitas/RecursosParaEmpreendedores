@@ -1,3 +1,47 @@
+<<<<<<< Updated upstream
+=======
+/* Estilos gerais
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: rosybrown;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    justify-content: space-between;}
+    
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    
+}
+
+header ul {
+    display: flex;
+   
+}
+
+header ul li {
+ margin-left: 30px;
+}
+
+
+header h1 {
+    margin: 0;
+} */
+
+
+ 
+>>>>>>> Stashed changes
 /*configuração global*/
 * {
     margin: 0;
@@ -17,7 +61,11 @@ header {
     background-color: #020da3;
     margin-top: 0;
     margin-bottom: 0;
+<<<<<<< Updated upstream
     box-shadow: 0px 10px 10px 0px #2b3676;
+=======
+    box-shadow: 0px 8px 8px 0px #2b3676;
+>>>>>>> Stashed changes
     position: sticky;
     top: 0;
     left: 0;
@@ -52,6 +100,25 @@ header {
     align-items: center;
 }
 
+.div-pai {
+    display: flex;
+    flex-wrap: wrap; /* permite que as imagens quebrem para a próxima linha quando não couberem */
+  }
+  
+  .div-pai img {
+    width: 20%; /* Ajuste o tamanho das imagens conforme necessário */
+    height: auto;
+    margin: 5px; /* Espaçamento entre as imagens */
+    
+  }
+  
+  /* Media query para ajustar o layout em telas menores */
+  @media (max-width: 768px) {
+    .div-pai img {
+      width: 45%; /* Reduz o tamanho das imagens para duas por linha */
+    }
+  }
+  
 .nav-links a,
 .nav-links-mobile a {
     color: white;
@@ -152,9 +219,13 @@ body {
 
 
 
+<<<<<<< Updated upstream
 .div-pai {
     display: flex;
 }
+=======
+
+>>>>>>> Stashed changes
 
 
 .content {
@@ -226,12 +297,16 @@ footer {
     color: white;
 }
 
+<<<<<<< Updated upstream
 .efeito-imagem {
     justify-content: center;
     align-items: center;
     width: 30vw;
     display: grid;
 }
+=======
+
+>>>>>>> Stashed changes
 
 .rede i:hover {
     margin-bottom: 15px;
