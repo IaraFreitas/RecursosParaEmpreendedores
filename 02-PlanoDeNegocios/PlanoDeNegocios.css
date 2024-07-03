@@ -336,17 +336,18 @@ padding: 30px;
     /* é o padrão da tela onde o site foi desenvolvido 1920 x 1080px */
 }
 
-@media(max-width:1360px){
+@media(max-width:1366px){
     body{
-        
+        width: 100%;
+        color: yellow;
     }
 
     header{
-        width: 100vw;
+        width: 20vw;
     }
 
     #Bloco-01{
-        width: 79.7vw;
+        width: 50vw;
     }
 
     #Bloco-02{
@@ -372,7 +373,10 @@ padding: 30px;
     #footer{
         width: 100vw;
     }
+
 }
+/*fim da configuração do 1366px x 768px*/
+
 
 @media(max-width: 400px){
 
