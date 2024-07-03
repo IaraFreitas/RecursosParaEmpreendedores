@@ -338,12 +338,9 @@ padding: 30px;
 
 /*responsividade para tela com 1366px x 768px*/
 @media(max-width:1366px){
-    body{
-       
-    }
-
+  
     header{
-        width: 85vw;
+        width: 95vw;
     }
 
     #Bloco-01{

@@ -366,21 +366,21 @@ header{
 }
   
 
-@media(max-width:1360px){
+@media(max-width:1366px){
 /* é o padrão das telas da Dom Bosco 1360 x 768 */
 header{
-    width: 98.7vw;
+    width: 95.7vw;
 }
 
 #Bloco-01{
-    width: 97.5vw;
+    width: 95.5vw;
 }
 
 #Bloco-00{
-    width: 96.5vw;
+    width: 95.5vw;
 }
 #Bloco-02{
-    width: 92.4vw;
+    width: 95.3vw;
 }
 
 #Bloco-02 h2{
@@ -394,7 +394,7 @@ header{
 }
 
 #Bloco-05{
-    width: 95.1vw;
+    width: 95.4vw;
 }
 
 #Bloco-05 .base{
@@ -416,7 +416,7 @@ header{
 }
 
 #Bloco-03{
-    width: 94.2vw;
+    width: 95.2vw;
 }
 
 #Bloco-03 h2{
@@ -431,11 +431,16 @@ header{
 }
 
 #Bloco-04{
-    width: 97.5vw;
+    width: 95.7vw;
 }
 
 footer{
-    width: 93.1vw;
+    height: 25vh;
+    width: 70vw;
+    padding: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+   
 }
 }
 /* fim da configuração de 1360 x 768 */
