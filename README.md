@@ -10,9 +10,13 @@ https://iarafreitas.github.io/RecursosParaEmpreendedores/01-Home/Home.html
  Integrantes: 
  
  Diego    |  GitHub DiegoMadrake
+ 
  Enrique  |  GutHub kkshykk
+ 
  Iara     |  GitHub if.dev_
+ 
  Júlia    |  GitHub juatore
+ 
  Luciano  |  GitHub LucianoGuedes2024
 
 
