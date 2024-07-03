@@ -339,7 +339,7 @@ padding: 30px;
 /*responsividade para tela com 1366px x 768px*/
 @media(max-width:1366px){
     body{
-       color: yellow;
+       
     }
 
     header{
@@ -347,17 +347,16 @@ padding: 30px;
     }
 
     #Bloco-01{
-        width: 80vw;
+        width: 90vw;
     }
 
     #Bloco-02{
-        width: 100vw;
+        width: 90vw;
     }
 
     #Bloco-03{
        width: 100vw;
        height: 55vh;
-       box-shadow: 0px 0px 3px 0px red;
     }
 
     #Bloco-03 img{
@@ -378,17 +377,28 @@ padding: 30px;
 /*fim da configuração do 1366px x 768px*/
 
 
+
+/*responsividade para tela com 400px x 768px*/
 @media(max-width: 400px){
 
     body{
-        display: block;
-        width: 100%;
+        background-color: yellowgreen;
     }
 
-    header{
-        height: 30vh;
-        
+header{
+    height: 40vh;
+    width: 100vw;
+}
+
+    header .navbar{
+        display: block;
     }
+
+#Bloco-01{
+    width: 100vw;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px red;
+}
 
     #Bloco-01 iframe{
         width: 350px;
@@ -401,8 +411,58 @@ padding: 30px;
 
     }
 
-    .div-Bloco-02{
+    #Bloco-02{
+        width: 100vw;
+        height: 90vh;
+        
+    }
+
+    .div-Bloco-02 .div-Bloco-02{
         display: block;
     }
-   
+
+    #Bloco-02 h2{
+        font-size: 22px;
+    }
+
+    #Bloco-02 h3{
+        font-size: 18px;
+        width: 95%;
+        margin-left: 3%;
+    }
+
+
+#Bloco-02 .div-Bloco-02 .Bloco-02-padrao{
+    text-align: justify;
+    width: 22rem;
+    height: 17vh;
+    box-shadow: 5px 5px 9px 2px #2b3676;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: -20px;
 }
+
+
+#Bloco-02 .div-Bloco-02 .Bloco-02-padrao h2{
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+
+#Bloco-02 .div-Bloco-02 .Bloco-02-padrao p{
+    width: 22rem;
+    height: 8vh;
+    margin-right: 6%;
+}
+
+#Bloco-04{
+    display: block;
+}
+
+
+}
+
+    
+   
+
